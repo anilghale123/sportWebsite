@@ -25,6 +25,7 @@ body {
     width: 100%;           /* Make video container fill the screen width */
     height: 100vh;         /* Make video container fill the screen height */
     background-color: rgba(0, 0, 0, 0.9);
+    /* background-color: var(--primary-bg-color); */
 }
 
 .video-container video {
@@ -172,14 +173,14 @@ section[title="Sport Wears"] {
 /* Style for the card wrapper */
 .sportitem-wrapper {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
     margin-bottom: 1rem;
     /* background-color: var(--primary-bg-color); */
 }
 
 .sportwear-wrapper{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
     margin-bottom: 1rem;
 }
 
